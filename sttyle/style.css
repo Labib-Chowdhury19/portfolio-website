@@ -1,0 +1,56 @@
+/*Common sheard styles*/
+body{
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 300 to 800
+    
+    .open-sans-<uniquifier> {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+}
+
+.btn-primary{
+    border-radius: 1PX;
+    background-color: #FD6E0A;
+    padding: 3px 5px;
+    border:1px solid white;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue
+
+    ;
+
+}
+.text-primary{
+    color: #FD6E0A;
+}
+/* nav style*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.Titel{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #575656;
+    text-align: center;
+}
