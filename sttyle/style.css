@@ -127,3 +127,23 @@ section.about {
     border-radius: 10px;
     margin-top: 100px;
 }
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
+}
+.info-titele{
+    color: #757575;
+    font-size: 14px;
+    font-weight:500;
+    margin-bottom: 0px;
+}
+.info-description{
+    color: #181818;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -2px;
+}
